@@ -1,0 +1,171 @@
+```html
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 홈페이지 제목 -->
+    <title>신선경 소개 페이지</title>
+
+    <style>
+        /* ===== 전체 화면 설정 ===== */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f9fc;
+            color: #333;
+        }
+
+        /* ===== 상단 소개 영역 ===== */
+        header {
+            background: linear-gradient(135deg, #7ec8e3, #b8e7f7);
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        header p {
+            font-size: 22px;
+            color: white;
+        }
+
+        /* ===== 연락처 영역 ===== */
+        .contact {
+            margin-top: 20px;
+            color: white;
+            font-size: 16px;
+        }
+
+        /* ===== 본문 영역 ===== */
+        .container {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #2b5d7a;
+        }
+
+        /* ===== 카드 영역 ===== */
+        .cards {
+            display: flex;
+            gap: 25px;
+        }
+
+        /* 카드 한 개 */
+        .card {
+            flex: 1;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #2b5d7a;
+        }
+
+        .card p {
+            line-height: 1.7;
+        }
+
+        /* ===== 하단 푸터 ===== */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #eaf2f7;
+            color: #666;
+        }
+
+        /* ===== 모바일 화면 ===== */
+        @media(max-width:768px) {
+
+            .cards {
+                flex-direction: column;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- 이름과 소개를 수정하는 곳 -->
+    <!-- ========================= -->
+    <header>
+
+        <h1>신선경</h1>
+
+        <p>면소속 마을활성화</p>
+
+        <!-- 이메일 또는 연락처를 수정하는 곳 -->
+        <div class="contact">
+            📧 example@email.com
+        </div>
+
+    </header>
+
+
+    <div class="container">
+
+        <h2>나를 소개하는 3가지</h2>
+
+        <div class="cards">
+
+            <!-- 첫 번째 카드 내용 수정 -->
+            <div class="card">
+                <h3>🌱 지역 사랑</h3>
+                <p>
+                    주민과 함께 성장하는
+                    따뜻한 마을을 만들어갑니다.
+                </p>
+            </div>
+
+            <!-- 두 번째 카드 내용 수정 -->
+            <div class="card">
+                <h3>🤝 소통</h3>
+                <p>
+                    <strong style="color: #ff477e;">주민들의 이야기</strong>를 듣고
+                    함께 해결책을 찾는 일을 좋아합니다.
+                </p>
+            </div>
+
+            <!-- 세 번째 카드 내용 수정 -->
+            <div class="card">
+                <h3>🏡 마을 활성화</h3>
+                <p>
+                    사람과 공간을 연결하여
+                    활기찬 공동체를 만들어갑니다.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- 연도와 이름을 수정하는 곳 -->
+    <footer>
+        © 2026 신선경
+    </footer>
+
+</body>
+
+</html>
+```
